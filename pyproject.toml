@@ -1,10 +1,12 @@
 [project]
-name = "preset-python-uv"
+name = "markitdown-lab"
 version = "0.1.0"
-description = "Add your description here"
+description = "Markitdownの実験用プロジェクト"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "markitdown==0.0.2",
+    "streamlit==1.43.2",
     "cowsay==6.1",
     "requests==2.32.3",
 ]
